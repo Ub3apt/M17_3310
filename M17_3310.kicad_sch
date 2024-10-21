@@ -1,0 +1,172 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8d65c5ef-7a02-4454-aee5-ab9c49e4aeab")
+	(paper "A4")
+	(title_block
+		(title "Mainboard replacement for Nokia 3310")
+		(date "21-10-2024")
+		(rev "Rev A")
+		(company "M17 Project")
+		(comment 1 "Wojciech Kaczmarski, SP5WWP")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b860798-5455-4385-a0e7-f7fc9f6a9c55")
+		(property "Sheetname" "RF"
+			(at 50.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf.kicad_sch"
+			(at 50.8 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56951be9-e7d0-42f1-a860-fb701fde1659")
+		(property "Sheetname" "Interfaces"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ifaces.kicad_sch"
+			(at 101.6 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69b4d1b1-805b-4c7a-b583-ffe559937ec6")
+		(property "Sheetname" "PMU"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmu.kicad_sch"
+			(at 76.2 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d70e0f3c-6f62-45eb-a17e-0f32c3e4716f")
+		(property "Sheetname" "MCU"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 25.4 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
