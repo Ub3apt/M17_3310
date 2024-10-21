@@ -346,12 +346,12 @@
 		)
 	)
 	(no_connect
-		(at 196.85 93.98)
+		(at 180.34 93.98)
 		(uuid "9ffafcfd-a759-463b-b169-4677326d0d52")
 	)
 	(wire
 		(pts
-			(xy 175.26 85.09) (xy 196.85 85.09)
+			(xy 175.26 85.09) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -359,9 +359,105 @@
 		)
 		(uuid "a0ae441f-5cb3-4580-a6f1-d87a3a6b47e4")
 	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 101.6 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34816a61-91bd-4531-b844-359c2a7d0e02")
+	)
+	(hierarchical_label "DEMOD_OUT"
+		(shape output)
+		(at 101.6 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d7c36a-ab04-4a45-a9e1-da753b053caa")
+	)
+	(hierarchical_label "U_BATT"
+		(shape input)
+		(at 101.6 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67a9db5b-8689-4c76-b334-5d7dcf9ab6ac")
+	)
+	(hierarchical_label "PWR_SEL"
+		(shape input)
+		(at 101.6 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e4925f3-a14f-4a9c-b260-c6cbee0ddf66")
+	)
+	(hierarchical_label "ENA"
+		(shape input)
+		(at 101.6 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74dd8946-8380-4204-b0cd-a1fa152ca853")
+	)
+	(hierarchical_label "MOD_IN"
+		(shape input)
+		(at 101.6 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d13b525e-54c8-46af-9c75-2f2180bac1a7")
+	)
+	(hierarchical_label "PTT"
+		(shape input)
+		(at 101.6 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1c771e9-7aa4-4f78-a79f-4280a3f417e6")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 101.6 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7cbf72c-e442-4141-af9b-407f866d7ea3")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 201.93 85.09 180)
+		(at 185.42 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -370,7 +466,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e9fe2f6-7f6d-4e62-8a51-365b611fe0b7")
 		(property "Reference" "J1"
-			(at 201.295 80.01 0)
+			(at 184.785 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +474,7 @@
 			)
 		)
 		(property "Value" "ANT_A"
-			(at 201.295 82.55 0)
+			(at 184.785 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -386,7 +482,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 201.93 85.09 0)
+			(at 185.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 85.09 0)
+			(at 185.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +500,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 201.93 85.09 0)
+			(at 185.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -426,7 +522,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 201.93 93.98 180)
+		(at 185.42 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -435,7 +531,7 @@
 		(fields_autoplaced yes)
 		(uuid "65977db7-369a-4849-98e4-fff82bc146c7")
 		(property "Reference" "J2"
-			(at 201.295 88.9 0)
+			(at 184.785 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +539,7 @@
 			)
 		)
 		(property "Value" "ANT_B"
-			(at 201.295 91.44 0)
+			(at 184.785 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 201.93 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +565,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 201.93 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
