@@ -6,15 +6,125 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "21-10-2024")
+		(date "23-10-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 203.2 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f62a114-41a0-4a96-b801-a2b4eb4615f7")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1230bc41-cfe3-4df0-af25-7d1f8c1c9cc2")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c4903b-bb9f-4953-b71c-35085a84356f")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4548a9c2-2fd7-461c-8af1-fddf16160b6b")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1a3eb6-100a-4d4b-8185-07b542844c3d")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88174844-e94e-46be-9777-a327fda1b999")
+	)
+	(wire
+		(pts
+			(xy 177.8 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96628442-67e1-40b0-b81e-b6e90a4bd9b1")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa38d36-8fe2-4bf9-964f-b584d6fd28be")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be617b00-f95f-4599-9ab6-c55a6ac2650f")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded97af9-f59a-401a-b8c7-fd3d526fb758")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b08296-1d69-4faa-a852-788135441192")
+	)
 	(sheet
-		(at 50.8 25.4)
-		(size 12.7 12.7)
+		(at 190.5 63.5)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25,7 +135,7 @@
 		)
 		(uuid "3b860798-5455-4385-a0e7-f7fc9f6a9c55")
 		(property "Sheetname" "RF"
-			(at 50.8 24.6884 0)
+			(at 190.5 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,13 +144,93 @@
 			)
 		)
 		(property "Sheetfile" "rf.kicad_sch"
-			(at 50.8 38.6846 0)
+			(at 190.5 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "TX" output
+			(at 190.5 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41f26616-0a64-4925-991e-f4f6a0a2e722")
+		)
+		(pin "RX" input
+			(at 190.5 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76649939-5ae8-40dc-a83e-e961a994bf0e")
+		)
+		(pin "ENA" input
+			(at 190.5 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "281ce168-f6c0-4810-9427-80239b8b4c44")
+		)
+		(pin "PTT" input
+			(at 190.5 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b3088234-861c-45d9-a54b-996af757fbe0")
+		)
+		(pin "MOD_IN" input
+			(at 190.5 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2104eddf-7412-48e0-987d-c843566f62d1")
+		)
+		(pin "U_BATT" input
+			(at 203.2 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca330825-e635-40b9-8bd8-47b0bc692a40")
+		)
+		(pin "PWR_SEL" input
+			(at 190.5 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46bcbc1d-f8c9-4381-806b-dc9232f07f52")
+		)
+		(pin "DEMOD_OUT" output
+			(at 190.5 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8852ddbb-befa-4db8-bdea-e449b0763ec8")
 		)
 		(instances
 			(project "M17_3310"
@@ -51,8 +241,8 @@
 		)
 	)
 	(sheet
-		(at 101.6 25.4)
-		(size 12.7 12.7)
+		(at 127 101.6)
+		(size 50.8 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -63,7 +253,7 @@
 		)
 		(uuid "56951be9-e7d0-42f1-a860-fb701fde1659")
 		(property "Sheetname" "Interfaces"
-			(at 101.6 24.6884 0)
+			(at 127 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,13 +262,153 @@
 			)
 		)
 		(property "Sheetfile" "ifaces.kicad_sch"
-			(at 101.6 38.6846 0)
+			(at 127 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 152.4 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9789e7c6-bf94-49cd-a329-427015d13901")
+		)
+		(pin "UDB_DM" bidirectional
+			(at 154.94 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c4a789e-b7f2-4a11-b344-50e2933f218f")
+		)
+		(pin "5V_USB" output
+			(at 127 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "00589aef-3c58-473b-8322-a8366c2fcca7")
+		)
+		(pin "KEY_COLS" input
+			(at 163.83 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d819ac2-9d14-497f-848d-31fdf13cfa13")
+		)
+		(pin "PWM_BLIGHT" input
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65e2a287-3cfc-4b08-897b-d3bf7dd697c8")
+		)
+		(pin "BOOT0" bidirectional
+			(at 167.64 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd04b3ed-e2e0-4a78-842f-ee656b54d9a4")
+		)
+		(pin "DAT3" bidirectional
+			(at 147.32 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04c79ab4-2053-4d39-be1b-d97d001ee443")
+		)
+		(pin "CLK" bidirectional
+			(at 134.62 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "935e63d4-af53-4969-8cf2-4e7e83eb3e6e")
+		)
+		(pin "CMD" bidirectional
+			(at 137.16 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a444224-035e-411b-9872-583025980354")
+		)
+		(pin "SD_DET" passive
+			(at 132.08 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a9b312ad-93ea-4961-9db4-885883df4879")
+		)
+		(pin "DAT1" bidirectional
+			(at 142.24 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96d05d5d-5ee1-41ff-aae7-55b766d83246")
+		)
+		(pin "DAT0" bidirectional
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8d06d45-705c-4274-9ae4-09ef00503647")
+		)
+		(pin "DAT2" bidirectional
+			(at 144.78 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bb1f265a-6a31-4d03-a12f-de756f60aaa1")
+		)
+		(pin "KEY_ROWS" output
+			(at 161.29 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "879714b8-c11c-413a-9c25-f6dc6ed1bc4d")
 		)
 		(instances
 			(project "M17_3310"
@@ -89,8 +419,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 25.4)
-		(size 12.7 12.7)
+		(at 88.9 101.6)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -101,7 +431,7 @@
 		)
 		(uuid "69b4d1b1-805b-4c7a-b583-ffe559937ec6")
 		(property "Sheetname" "PMU"
-			(at 76.2 24.6884 0)
+			(at 88.9 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,13 +440,63 @@
 			)
 		)
 		(property "Sheetfile" "pmu.kicad_sch"
-			(at 76.2 38.6846 0)
+			(at 88.9 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "5V_USB" input
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d03a4366-f721-47ad-bd0c-b514159791b2")
+		)
+		(pin "U_BATT" output
+			(at 99.06 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e171495-ed0b-434c-afc5-2e286cde1353")
+		)
+		(pin "~{CHG}" passive
+			(at 106.68 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8afc0547-bdd6-4e68-9261-861e5de37d26")
+		)
+		(pin "PWR_ON" passive
+			(at 104.14 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "685e6067-7a93-4e64-844d-a6d7efcae335")
+		)
+		(pin "RTC_BATT" output
+			(at 101.6 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "67e6ddc1-2236-4070-877b-ee201776cc2f")
 		)
 		(instances
 			(project "M17_3310"
@@ -127,8 +507,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 12.7 12.7)
+		(at 127 63.5)
+		(size 50.8 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -139,7 +519,7 @@
 		)
 		(uuid "d70e0f3c-6f62-45eb-a17e-0f32c3e4716f")
 		(property "Sheetname" "MCU"
-			(at 25.4 24.6884 0)
+			(at 127 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,13 +528,73 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 25.4 38.6846 0)
+			(at 127 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "RTC_BATT" input
+			(at 127 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "366a2bc4-a894-4e6a-bb12-bdfc9deee9e3")
+		)
+		(pin "UDB_DM" bidirectional
+			(at 154.94 88.9 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "679854a9-23f9-486b-b850-c59ecac41a85")
+		)
+		(pin "USB_DP" bidirectional
+			(at 152.4 88.9 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a62f651-0229-41c0-ad82-197505159012")
+		)
+		(pin "RF_RX" input
+			(at 177.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09c6d759-9d95-43b0-b00c-fc134c163021")
+		)
+		(pin "RF_TX" output
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "080acd0f-a17a-48e7-9751-77364a09562e")
+		)
+		(pin "BOOT0" input
+			(at 167.64 88.9 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9e3f6fc-1d36-48ff-9893-f751ff91d91b")
 		)
 		(instances
 			(project "M17_3310"
