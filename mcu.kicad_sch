@@ -4206,6 +4206,7 @@
 	)
 	(label "ROW_5"
 		(at 270.51 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4238,6 +4239,7 @@
 	)
 	(label "COL_1"
 		(at 257.81 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4270,6 +4272,7 @@
 	)
 	(label "COL_3"
 		(at 257.81 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4291,6 +4294,7 @@
 	)
 	(label "ROW_2"
 		(at 270.51 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,6 +4305,7 @@
 	)
 	(label "ROW_3"
 		(at 270.51 120.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4311,6 +4316,7 @@
 	)
 	(label "ROW_4"
 		(at 270.51 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4321,6 +4327,7 @@
 	)
 	(label "COL_2"
 		(at 257.81 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4353,6 +4360,7 @@
 	)
 	(label "ROW_1"
 		(at 270.51 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
