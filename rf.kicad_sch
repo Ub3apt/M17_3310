@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "24-10-2024")
+		(date "25-10-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -1040,7 +1040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e9fe2f6-7f6d-4e62-8a51-365b611fe0b7")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 184.785 87.63 0)
 			(effects
 				(font
@@ -1089,7 +1089,7 @@
 		(instances
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1105,7 +1105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd7ae75-a1b1-4b45-9069-a5212638a91b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -1155,7 +1155,7 @@
 		(instances
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65977db7-369a-4849-98e4-fff82bc146c7")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 184.785 96.52 0)
 			(effects
 				(font
@@ -1220,7 +1220,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb16e37-21f2-4085-8027-f9683b8726a0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -1416,7 +1416,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
