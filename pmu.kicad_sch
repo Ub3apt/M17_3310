@@ -3556,6 +3556,82 @@
 		(uuid "d9097fd9-2f75-4f25-819d-51aed58fcf44")
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 111.76 99.06 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee2b1b8-10ae-4498-9159-43cde418ba0c")
+		(property "Reference" "Q4"
+			(at 118.11 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 118.11 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f02b2c5-0168-4b0c-a4a0-1abf94ab5f5b")
+		)
+		(pin "3"
+			(uuid "38982671-3e55-4ad8-abf6-d94b996c922d")
+		)
+		(pin "2"
+			(uuid "d6a4b8c3-da8a-470c-ad1f-2620af13db19")
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 97.79 0)
 		(unit 1)
@@ -3565,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d535d9-d12e-4e0b-8935-2f2c5c828df4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 196.85 104.14 0)
 			(effects
 				(font
@@ -3615,7 +3691,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -3725,7 +3801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "337d2863-45c5-42fd-8e47-5e68f589ed56")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 115.5304 116.8399 0)
 			(effects
 				(font
@@ -3797,7 +3873,83 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "R8")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 106.68 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36fb1eaf-57a1-41a4-87ab-518129ca1c16")
+		(property "Reference" "Q3"
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 101.6 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49d2281a-9423-4c5e-a940-5278c93b7b6b")
+		)
+		(pin "2"
+			(uuid "0a78a77a-0c31-4685-802d-a4be1de11db7")
+		)
+		(pin "3"
+			(uuid "db0fe638-803b-41e8-aa4d-7644d48dcc38")
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3813,7 +3965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a0eca0-dec2-4e00-86b5-2aa9c5e2b3a6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 220.98 104.14 0)
 			(effects
 				(font
@@ -3863,7 +4015,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c435d6e-0917-4b0f-81ca-9f3a6e357d5e")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 137.1204 114.2999 0)
 			(effects
 				(font
@@ -4132,7 +4284,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4310,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808bd4db-0ed0-468f-8792-b5d28f883dce")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR029"
 			(at 104.14 129.54 0)
 			(effects
 				(font
@@ -4360,82 +4512,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 111.76 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81b304a2-72cb-4ed5-9561-0c5ed787ca11")
-		(property "Reference" "Q2"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 118.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 111.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3167218-f951-4881-8d96-1bb841c4c504")
-		)
-		(pin "2"
-			(uuid "161819c6-36a0-4c42-bab2-40092df65394")
-		)
-		(pin "3"
-			(uuid "d4de428a-48ab-4006-8403-87bc50b73158")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "Q2")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a740dd-3d4e-4dde-8684-a7c419e2ce33")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR032"
 			(at 139.7 111.76 0)
 			(effects
 				(font
@@ -4571,7 +4648,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a06540a-2490-4436-8af2-4a5c705f9b4d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR028"
 			(at 86.36 119.38 0)
 			(effects
 				(font
@@ -4637,7 +4714,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3deeb19-442d-46c6-b686-759dac8338ac")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 160.02 120.65 0)
 			(effects
 				(font
@@ -4773,7 +4850,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4875,7 +4952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b2dafe-230e-4466-9a3e-2a3f07fbac52")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 106.6404 91.4399 0)
 			(effects
 				(font
@@ -4947,7 +5024,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5051,7 +5128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16ead05-14af-41c2-8b43-60afbbc18f27")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR031"
 			(at 134.62 127 0)
 			(effects
 				(font
@@ -5101,7 +5178,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5117,7 +5194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c319fd49-d9d7-484c-8b3d-f3fc66313b19")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -5167,7 +5244,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5450,7 +5527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0286ec3-7a22-4835-8b3a-8d94fbb3eb55")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 196.85 87.63 0)
 			(effects
 				(font
@@ -5500,82 +5577,7 @@
 		(instances
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 106.68 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5f53fe5-b304-4227-b683-bb81f29e59f2")
-		(property "Reference" "Q1"
-			(at 100.33 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 100.33 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 101.6 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 106.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16a99c73-6e2c-4038-85a0-a857696e2c48")
-		)
-		(pin "3"
-			(uuid "9a19c12a-5e2d-4ed4-a37a-a5d923d893e5")
-		)
-		(pin "2"
-			(uuid "15ddbff0-0295-4223-a283-acc9aa3231b9")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "Q1")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5591,7 +5593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f44902a5-1dff-4339-b3ee-91bc4ef6758c")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 215.9 81.1995 90)
 			(effects
 				(font
@@ -5661,7 +5663,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5677,7 +5679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f539d94b-c496-47c5-b21e-ce37f3318c25")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 60.96 102.87 0)
 			(effects
 				(font
@@ -5727,7 +5729,7 @@
 		(instances
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5743,7 +5745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9e8e307-4fb7-4f04-9726-dd48fda8e3c7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR030"
 			(at 113.03 129.54 0)
 			(effects
 				(font
@@ -5793,7 +5795,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/69b4d1b1-805b-4c7a-b583-ffe559937ec6"
-					(reference "#PWR026")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

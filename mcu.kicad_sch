@@ -3390,6 +3390,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca8c31c-07f6-45c8-b10b-90cd9d203af8")
+	)
+	(wire
+		(pts
 			(xy 163.83 97.79) (xy 163.83 95.25)
 		)
 		(stroke
@@ -4100,16 +4110,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcff5843-7212-459e-b50b-5701f29def98")
-	)
-	(wire
-		(pts
 			(xy 132.08 39.37) (xy 132.08 36.83)
 		)
 		(stroke
@@ -4523,13 +4523,13 @@
 	)
 	(hierarchical_label "PTT_OUT"
 		(shape output)
-		(at 236.22 115.57 180)
+		(at 227.33 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f4e0559-b907-49da-824a-19f9f8c5ca4c")
 	)
@@ -4571,13 +4571,13 @@
 	)
 	(hierarchical_label "RF_PWR"
 		(shape output)
-		(at 236.22 120.65 180)
+		(at 227.33 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "90af38ff-bd5d-436a-889c-08446d6327a1")
 	)
@@ -4629,15 +4629,15 @@
 		)
 		(uuid "af0bc8d4-a7a9-40b2-9d91-5a524d5a31c3")
 	)
-	(hierarchical_label "RF_ENA"
+	(hierarchical_label "~{RF_ENA}"
 		(shape output)
-		(at 236.22 118.11 180)
+		(at 227.33 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b2c1ef0b-6f88-4f81-b56e-2d3dc465e3f4")
 	)
@@ -4652,6 +4652,18 @@
 			(justify right)
 		)
 		(uuid "b7618e87-ca11-44e3-a3ba-8aa12db39509")
+	)
+	(hierarchical_label "AF_AMP_EN"
+		(shape output)
+		(at 227.33 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8582e1b-7ce6-4c72-af3a-f574b282377d")
 	)
 	(hierarchical_label "KEY_ROWS"
 		(shape input)
@@ -4749,15 +4761,27 @@
 		)
 		(uuid "d9cf7c5e-3cb9-46d1-93db-b26811b3844e")
 	)
-	(hierarchical_label "PWM_BLIGHT"
+	(hierarchical_label "VIBR"
 		(shape output)
-		(at 236.22 123.19 180)
+		(at 227.33 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "f3cc5d05-66fe-4a21-b52a-07b6ae53fc57")
+	)
+	(hierarchical_label "PWM_BLIGHT"
+		(shape output)
+		(at 227.33 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "feca8f42-f17b-4e4c-91eb-59f8514bf7ce")
 	)
