@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "25-10-2024")
+		(date "28-10-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -310,7 +310,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 69.85) (xy 125.73 86.36)
+			(xy 134.62 69.85) (xy 134.62 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1064,15 +1064,15 @@
 			)
 			(uuid "7b2fb051-c9aa-4734-867c-b4d23e0ab1fb")
 		)
-		(pin "AF_AMP_EN" input
-			(at 125.73 69.85 270)
+		(pin "MUTE" input
+			(at 134.62 69.85 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "09d9f140-ac20-4e52-90bd-a879c56b00e2")
+			(uuid "c58f5eb4-d14d-4451-a5f3-c54b400d1abf")
 		)
 		(instances
 			(project "M17_3310"
@@ -1422,15 +1422,15 @@
 			)
 			(uuid "cd7c201d-8cba-4f81-a244-2b62bae95d69")
 		)
-		(pin "AF_AMP_EN" output
-			(at 125.73 86.36 90)
+		(pin "AF_MUTE" output
+			(at 134.62 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7d4b531e-2428-4b22-acaa-3c5f1185a301")
+			(uuid "89fc2ad7-c4e0-4edb-8957-58b1cc3a6201")
 		)
 		(instances
 			(project "M17_3310"

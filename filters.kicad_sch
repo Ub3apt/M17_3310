@@ -6,401 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "25-10-2024")
+		(date "28-10-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP6004"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP6004"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quad opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP6004_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6004_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6004_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6004_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6004_5_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -683,6 +294,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -901,20 +633,20 @@
 		)
 	)
 	(junction
-		(at 193.04 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2414d8a2-aace-4b3b-95b9-94ec91f14d44")
-	)
-	(junction
-		(at 205.74 50.8)
+		(at 168.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "330d563c-7c7b-4856-8f46-1bcb196b7013")
 	)
+	(junction
+		(at 115.57 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b806359-5b14-4ea3-aef0-6940b198777e")
+	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 205.74 50.8)
+			(xy 181.61 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +656,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 39.37) (xy 205.74 40.64)
+			(xy 115.57 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07de9d27-22bd-418b-809e-2d9811a8bdd8")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 48.26) (xy 205.74 50.8)
+			(xy 168.91 91.44) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 67.31) (xy 218.44 63.5)
+			(xy 181.61 105.41) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 205.74 50.8)
+			(xy 166.37 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 55.88) (xy 218.44 50.8)
+			(xy 181.61 96.52) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 205.74 55.88)
+			(xy 168.91 93.98) (xy 168.91 96.52)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 110.49 120.65)
+			(xy 104.14 71.12) (xy 129.54 71.12)
 		)
 		(stroke
 			(width 0)
@@ -994,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 110.49 125.73)
+			(xy 104.14 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1004,17 +746,57 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 193.04 50.8)
+			(xy 115.57 95.25) (xy 115.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3cfae77-062c-4c67-a032-7d34ba7f8293")
+		(uuid "8c6718d8-1873-458c-837f-b314e2a46ab3")
 	)
 	(wire
 		(pts
-			(xy 205.74 63.5) (xy 205.74 67.31)
+			(xy 115.57 104.14) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90ca99f-88fd-467a-bf70-dac52f609481")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb5e018-1016-4bb1-9ad2-995101928ab5")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a5cac2-761f-42a5-b37d-1808140e7628")
+	)
+	(wire
+		(pts
+			(xy 115.57 85.09) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4ff22b-c80d-4902-9ed2-384fc322da94")
+	)
+	(wire
+		(pts
+			(xy 168.91 104.14) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1024,16 +806,26 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 193.04 52.07)
+			(xy 104.14 115.57) (xy 129.54 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb698533-58b4-46e3-858c-b51330a890fa")
+		(uuid "ea8842f0-5449-4332-9aba-8162145f72d0")
+	)
+	(text "No filters in this revision for simplicity"
+		(exclude_from_sim no)
+		(at 116.84 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6db04da4-032f-4ab8-8619-6f7fe144814d")
 	)
 	(label "FILT_VDD"
-		(at 191.77 50.8 180)
+		(at 166.37 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1043,9 +835,20 @@
 		)
 		(uuid "4cb831f7-9128-422f-87cf-f84f3f826b05")
 	)
+	(label "FILT_VDD"
+		(at 115.57 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e37307d-b2f9-4151-aa08-0f1eebe753f2")
+	)
 	(hierarchical_label "TX_BSB_IN"
 		(shape input)
-		(at 88.9 88.9 180)
+		(at 104.14 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1057,7 +860,7 @@
 	)
 	(hierarchical_label "SPK_IN"
 		(shape input)
-		(at 85.09 125.73 180)
+		(at 104.14 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1069,7 +872,7 @@
 	)
 	(hierarchical_label "MIC_IN"
 		(shape input)
-		(at 85.09 120.65 180)
+		(at 104.14 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1081,7 +884,7 @@
 	)
 	(hierarchical_label "RX_BSB_IN"
 		(shape input)
-		(at 88.9 93.98 180)
+		(at 104.14 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1093,7 +896,7 @@
 	)
 	(hierarchical_label "TX_BSB_OUT"
 		(shape output)
-		(at 114.3 88.9 0)
+		(at 129.54 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1105,7 +908,7 @@
 	)
 	(hierarchical_label "SPK_OUT"
 		(shape output)
-		(at 110.49 125.73 0)
+		(at 129.54 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1117,7 +920,7 @@
 	)
 	(hierarchical_label "RX_BSB_OUT"
 		(shape output)
-		(at 114.3 93.98 0)
+		(at 129.54 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1129,7 +932,7 @@
 	)
 	(hierarchical_label "MIC_OUT"
 		(shape output)
-		(at 110.49 120.65 0)
+		(at 129.54 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,16 +944,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 67.31 0)
+		(at 115.57 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0009673c-7285-439b-b5d4-98a1f8bb0992")
-		(property "Reference" "#PWR065"
-			(at 193.04 73.66 0)
+		(uuid "06b69fab-52bd-4529-8bf7-ccedbb69c551")
+		(property "Reference" "#PWR066"
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +962,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 72.39 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 67.31 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 67.31 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 67.31 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,124 +997,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "42a2445f-8dbe-4bb6-b4f5-716ced8e6c9a")
+			(uuid "59036ec8-7faa-4373-a333-cb1160c9b03d")
 		)
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR065")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6004")
-		(at 63.5 81.28 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "317309cf-f17a-455d-aa0b-c968b0004663")
-		(property "Reference" "U6"
-			(at 63.5 72.0555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6004"
-			(at 63.5 74.4798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 64.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 63.5 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "96b76878-db41-4977-ba15-a71f7c76a274")
-		)
-		(pin "3"
-			(uuid "766742cc-1088-431e-9c2c-b0ae7b53c0c1")
-		)
-		(pin "5"
-			(uuid "f840aed4-21b6-401e-a39d-f52f5b781e54")
-		)
-		(pin "6"
-			(uuid "e46c8b2f-6ea7-4366-adc1-eb1dbacac9bf")
-		)
-		(pin "14"
-			(uuid "5dc0a3b8-4e3f-4f67-9040-5ff67ad1efb4")
-		)
-		(pin "7"
-			(uuid "19347631-5ce7-42fa-ad47-6d736b7f4dcd")
-		)
-		(pin "11"
-			(uuid "47d6efca-b87e-45a0-b7be-4cf13fa10bca")
-		)
-		(pin "2"
-			(uuid "1a77ac30-2895-492e-9933-20b65898f24d")
-		)
-		(pin "1"
-			(uuid "a188be1c-7841-4158-bb2d-e878709722c3")
-		)
-		(pin "10"
-			(uuid "9dff3972-d21c-4cbc-93fb-7e208a06a947")
-		)
-		(pin "9"
-			(uuid "f2e6fd71-4342-4231-bdc6-4929bacc3531")
-		)
-		(pin "8"
-			(uuid "1fb26e5e-5c60-45ea-83aa-8c5ac183e4a7")
-		)
-		(pin "13"
-			(uuid "ea4e9145-89cb-4c30-9161-22f4c3352cd2")
-		)
-		(pin "12"
-			(uuid "de874ef0-3104-4153-a0aa-e23839fd33ab")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "U6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 205.74 44.45 180)
+		(at 168.91 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1320,7 +1019,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ec4086a-046c-466d-b436-5adddfec0913")
 		(property "Reference" "FB4"
-			(at 209.55 43.2307 0)
+			(at 172.72 86.4107 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,7 +1028,7 @@
 			)
 		)
 		(property "Value" "Bead"
-			(at 209.55 45.7707 0)
+			(at 172.72 88.9507 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +1037,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 207.518 44.45 90)
+			(at 170.688 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 44.45 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1055,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 205.74 44.45 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1064,7 @@
 			)
 		)
 		(property "PN" "81-NFZ2MSD102SZ10L"
-			(at 205.74 44.45 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1073,7 @@
 			)
 		)
 		(property "MPN" "81-NFZ2MSD102SZ10L"
-			(at 205.74 44.45 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,17 +1097,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 205.74 59.69 180)
+		(lib_id "Device:R")
+		(at 115.57 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54769243-b170-4064-ab84-b1bd27adbb42")
-		(property "Reference" "C22"
-			(at 209.55 58.4199 0)
+		(uuid "51059d11-dd3d-4ca6-92f5-38337219e53e")
+		(property "Reference" "R35"
+			(at 118.0704 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,8 +1115,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
-			(at 209.55 60.9599 0)
+		(property "Value" "47k"
+			(at 118.0704 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,8 +1124,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 204.7748 55.88 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 117.348 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1134,95 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 59.69 0)
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e89e57d-f3c5-46de-a3b8-5744ec993531")
+		)
+		(pin "1"
+			(uuid "151a1d06-cda8-491a-9190-1df4c46420c7")
+		)
+		(instances
+			(project "M17_3310"
+				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54769243-b170-4064-ab84-b1bd27adbb42")
+		(property "Reference" "C23"
+			(at 172.72 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 172.72 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 167.9448 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1231,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 205.74 59.69 0)
+			(at 168.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,217 +1248,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6004")
-		(at 195.58 59.69 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8695648d-6473-47c0-961e-673bd4c1d6a6")
-		(property "Reference" "U6"
-			(at 193.675 58.4778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6004"
-			(at 193.675 60.9021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 196.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 195.58 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "96b76878-db41-4977-ba15-a71f7c76a274")
-		)
-		(pin "3"
-			(uuid "766742cc-1088-431e-9c2c-b0ae7b53c0c1")
-		)
-		(pin "5"
-			(uuid "f840aed4-21b6-401e-a39d-f52f5b781e54")
-		)
-		(pin "6"
-			(uuid "e46c8b2f-6ea7-4366-adc1-eb1dbacac9bf")
-		)
-		(pin "14"
-			(uuid "5dc0a3b8-4e3f-4f67-9040-5ff67ad1efb4")
-		)
-		(pin "7"
-			(uuid "19347631-5ce7-42fa-ad47-6d736b7f4dcd")
-		)
-		(pin "11"
-			(uuid "47d6efca-b87e-45a0-b7be-4cf13fa10bca")
-		)
-		(pin "2"
-			(uuid "1a77ac30-2895-492e-9933-20b65898f24d")
-		)
-		(pin "1"
-			(uuid "a188be1c-7841-4158-bb2d-e878709722c3")
-		)
-		(pin "10"
-			(uuid "9dff3972-d21c-4cbc-93fb-7e208a06a947")
-		)
-		(pin "9"
-			(uuid "f2e6fd71-4342-4231-bdc6-4929bacc3531")
-		)
-		(pin "8"
-			(uuid "1fb26e5e-5c60-45ea-83aa-8c5ac183e4a7")
-		)
-		(pin "13"
-			(uuid "ea4e9145-89cb-4c30-9161-22f4c3352cd2")
-		)
-		(pin "12"
-			(uuid "de874ef0-3104-4153-a0aa-e23839fd33ab")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "U6")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6004")
-		(at 63.5 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88597734-8bb7-4a73-a310-7b2503c0cd02")
-		(property "Reference" "U6"
-			(at 63.5 33.9555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6004"
-			(at 63.5 36.3798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 64.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 63.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "96b76878-db41-4977-ba15-a71f7c76a274")
-		)
-		(pin "3"
-			(uuid "766742cc-1088-431e-9c2c-b0ae7b53c0c1")
-		)
-		(pin "5"
-			(uuid "f840aed4-21b6-401e-a39d-f52f5b781e54")
-		)
-		(pin "6"
-			(uuid "e46c8b2f-6ea7-4366-adc1-eb1dbacac9bf")
-		)
-		(pin "14"
-			(uuid "5dc0a3b8-4e3f-4f67-9040-5ff67ad1efb4")
-		)
-		(pin "7"
-			(uuid "19347631-5ce7-42fa-ad47-6d736b7f4dcd")
-		)
-		(pin "11"
-			(uuid "47d6efca-b87e-45a0-b7be-4cf13fa10bca")
-		)
-		(pin "2"
-			(uuid "1a77ac30-2895-492e-9933-20b65898f24d")
-		)
-		(pin "1"
-			(uuid "a188be1c-7841-4158-bb2d-e878709722c3")
-		)
-		(pin "10"
-			(uuid "9dff3972-d21c-4cbc-93fb-7e208a06a947")
-		)
-		(pin "9"
-			(uuid "f2e6fd71-4342-4231-bdc6-4929bacc3531")
-		)
-		(pin "8"
-			(uuid "1fb26e5e-5c60-45ea-83aa-8c5ac183e4a7")
-		)
-		(pin "13"
-			(uuid "ea4e9145-89cb-4c30-9161-22f4c3352cd2")
-		)
-		(pin "12"
-			(uuid "de874ef0-3104-4153-a0aa-e23839fd33ab")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "U6")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -1679,7 +1256,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 59.69 180)
+		(at 181.61 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1687,8 +1264,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92cdc5f8-3de8-4496-b3db-c9601f83e5f9")
-		(property "Reference" "C23"
-			(at 222.25 58.4199 0)
+		(property "Reference" "C24"
+			(at 185.42 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1274,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 222.25 60.9599 0)
+			(at 185.42 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1283,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 217.4748 55.88 0)
+			(at 180.6448 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1301,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1310,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 218.44 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1319,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 218.44 59.69 0)
+			(at 181.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,119 +1336,15 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6004")
-		(at 63.5 55.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "970a2234-0f04-47ce-863d-7e4dca567c53")
-		(property "Reference" "U6"
-			(at 63.5 46.6555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6004"
-			(at 63.5 49.0798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 64.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 63.5 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "96b76878-db41-4977-ba15-a71f7c76a274")
-		)
-		(pin "3"
-			(uuid "766742cc-1088-431e-9c2c-b0ae7b53c0c1")
-		)
-		(pin "5"
-			(uuid "f840aed4-21b6-401e-a39d-f52f5b781e54")
-		)
-		(pin "6"
-			(uuid "e46c8b2f-6ea7-4366-adc1-eb1dbacac9bf")
-		)
-		(pin "14"
-			(uuid "5dc0a3b8-4e3f-4f67-9040-5ff67ad1efb4")
-		)
-		(pin "7"
-			(uuid "19347631-5ce7-42fa-ad47-6d736b7f4dcd")
-		)
-		(pin "11"
-			(uuid "47d6efca-b87e-45a0-b7be-4cf13fa10bca")
-		)
-		(pin "2"
-			(uuid "1a77ac30-2895-492e-9933-20b65898f24d")
-		)
-		(pin "1"
-			(uuid "a188be1c-7841-4158-bb2d-e878709722c3")
-		)
-		(pin "10"
-			(uuid "9dff3972-d21c-4cbc-93fb-7e208a06a947")
-		)
-		(pin "9"
-			(uuid "f2e6fd71-4342-4231-bdc6-4929bacc3531")
-		)
-		(pin "8"
-			(uuid "1fb26e5e-5c60-45ea-83aa-8c5ac183e4a7")
-		)
-		(pin "13"
-			(uuid "ea4e9145-89cb-4c30-9161-22f4c3352cd2")
-		)
-		(pin "12"
-			(uuid "de874ef0-3104-4153-a0aa-e23839fd33ab")
-		)
-		(instances
-			(project ""
-				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 205.74 67.31 0)
+		(at 168.91 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1879,8 +1352,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6189ba-d674-4bc1-9420-bb00eed30988")
-		(property "Reference" "#PWR067"
-			(at 205.74 73.66 0)
+		(property "Reference" "#PWR068"
+			(at 168.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 72.39 0)
+			(at 168.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 67.31 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 67.31 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 67.31 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1402,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1937,7 +1410,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 205.74 39.37 0)
+		(at 168.91 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1945,8 +1418,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc366f8b-7e63-49df-a834-3348e6633655")
-		(property "Reference" "#PWR066"
-			(at 205.74 43.18 0)
+		(property "Reference" "#PWR067"
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,7 +1428,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 34.29 0)
+			(at 168.91 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 39.37 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 39.37 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 39.37 0)
+			(at 168.91 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +1468,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2003,7 +1476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 67.31 0)
+		(at 181.61 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2011,8 +1484,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb16c7ae-b7e8-497e-a033-8d7eac813119")
-		(property "Reference" "#PWR068"
-			(at 218.44 73.66 0)
+		(property "Reference" "#PWR069"
+			(at 181.61 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +1494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 72.39 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 67.31 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 67.31 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +1520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 67.31 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,49 +1534,42 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6004")
-		(at 63.5 68.58 0)
-		(unit 3)
+		(lib_id "Device:R")
+		(at 115.57 90.17 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa6052c3-4a86-46c8-8711-cf75a8cff438")
-		(property "Reference" "U6"
-			(at 63.5 59.3555 0)
+		(uuid "f324408b-8ed9-490e-840a-136cbf4be33d")
+		(property "Reference" "R34"
+			(at 118.0704 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "MCP6004"
-			(at 63.5 61.7798 0)
+		(property "Value" "47k"
+			(at 118.0704 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 64.77 63.5 0)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 117.348 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,8 +1577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14"
-			(at 63.5 68.58 0)
+		(property "Datasheet" "~"
+			(at 115.57 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,53 +1586,44 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "96b76878-db41-4977-ba15-a71f7c76a274")
+		(property "Description" "Resistor"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "766742cc-1088-431e-9c2c-b0ae7b53c0c1")
+		(property "PN" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "5"
-			(uuid "f840aed4-21b6-401e-a39d-f52f5b781e54")
-		)
-		(pin "6"
-			(uuid "e46c8b2f-6ea7-4366-adc1-eb1dbacac9bf")
-		)
-		(pin "14"
-			(uuid "5dc0a3b8-4e3f-4f67-9040-5ff67ad1efb4")
-		)
-		(pin "7"
-			(uuid "19347631-5ce7-42fa-ad47-6d736b7f4dcd")
-		)
-		(pin "11"
-			(uuid "47d6efca-b87e-45a0-b7be-4cf13fa10bca")
+		(property "MPN" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "1a77ac30-2895-492e-9933-20b65898f24d")
+			(uuid "3a12783a-7949-4b8f-ba97-d4efe4965a74")
 		)
 		(pin "1"
-			(uuid "a188be1c-7841-4158-bb2d-e878709722c3")
-		)
-		(pin "10"
-			(uuid "9dff3972-d21c-4cbc-93fb-7e208a06a947")
-		)
-		(pin "9"
-			(uuid "f2e6fd71-4342-4231-bdc6-4929bacc3531")
-		)
-		(pin "8"
-			(uuid "1fb26e5e-5c60-45ea-83aa-8c5ac183e4a7")
-		)
-		(pin "13"
-			(uuid "ea4e9145-89cb-4c30-9161-22f4c3352cd2")
-		)
-		(pin "12"
-			(uuid "de874ef0-3104-4153-a0aa-e23839fd33ab")
+			(uuid "e44d5250-156a-4a24-adfb-77da09850816")
 		)
 		(instances
-			(project ""
+			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "U6")
-					(unit 3)
+					(reference "R34")
+					(unit 1)
 				)
 			)
 		)
