@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "28-10-2024")
+		(date "29-10-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -952,7 +952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06b69fab-52bd-4529-8bf7-ccedbb69c551")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 115.57 111.76 0)
 			(effects
 				(font
@@ -1002,7 +1002,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51059d11-dd3d-4ca6-92f5-38337219e53e")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 118.0704 99.0599 0)
 			(effects
 				(font
@@ -1178,7 +1178,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1352,7 +1352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6189ba-d674-4bc1-9420-bb00eed30988")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1418,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc366f8b-7e63-49df-a834-3348e6633655")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 168.91 86.36 0)
 			(effects
 				(font
@@ -1468,7 +1468,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1484,7 +1484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb16c7ae-b7e8-497e-a033-8d7eac813119")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -1534,7 +1534,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f324408b-8ed9-490e-840a-136cbf4be33d")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 118.0704 88.8999 0)
 			(effects
 				(font
@@ -1622,7 +1622,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/ed3b33e1-45d0-4aa4-a9fa-64f3530c7cd6"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
