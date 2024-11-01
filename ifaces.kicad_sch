@@ -11493,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_vibrator"
 			(at 35.56 88.9 0)
 			(effects
 				(font
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_buzzer"
 			(at 69.85 88.9 0)
 			(effects
 				(font
