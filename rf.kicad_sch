@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "31-10-2024")
+		(date "2-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -2652,7 +2652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 75.692 90)
 			(effects
 				(font
@@ -2871,7 +2871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.228 116.84 90)
 			(effects
 				(font
@@ -3164,7 +3164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.748 116.84 90)
 			(effects
 				(font
@@ -3447,7 +3447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 98.552 90)
 			(effects
 				(font

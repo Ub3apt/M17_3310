@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "31-10-2024")
+		(date "2-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -6671,7 +6671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 64.77 179.3874 90)
 			(effects
 				(font
@@ -6680,7 +6680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 60.96 176.53 0)
 			(effects
 				(font
@@ -6699,6 +6699,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 60.96 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 60.96 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 60.96 176.53 0)
 			(effects
 				(font
@@ -6818,7 +6836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 38.1 173.228 90)
 			(effects
 				(font
@@ -6897,7 +6915,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 109.22 179.3874 90)
 			(effects
 				(font
@@ -6906,7 +6924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -6925,6 +6943,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -7103,7 +7139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 81.28 167.6399 0)
 			(effects
 				(font
@@ -7112,7 +7148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.962 166.37 90)
 			(effects
 				(font
@@ -7191,7 +7227,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 118.11 179.3874 90)
 			(effects
 				(font
@@ -7200,7 +7236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -7219,6 +7255,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 114.3 176.53 0)
 			(effects
 				(font
@@ -7334,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 96.012 90)
 			(effects
 				(font
@@ -7583,7 +7637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 99.06 167.6399 0)
 			(effects
 				(font
@@ -7592,7 +7646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 94.742 166.37 90)
 			(effects
 				(font
@@ -7680,7 +7734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 245.872 52.07 90)
 			(effects
 				(font
@@ -8435,7 +8489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 107.95 167.6399 0)
 			(effects
 				(font
@@ -8444,7 +8498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 103.632 166.37 90)
 			(effects
 				(font
@@ -8532,7 +8586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.068 107.95 90)
 			(effects
 				(font
@@ -9193,7 +9247,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 73.66 179.3874 90)
 			(effects
 				(font
@@ -9202,7 +9256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 69.85 176.53 0)
 			(effects
 				(font
@@ -9221,6 +9275,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 69.85 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 69.85 176.53 0)
 			(effects
 				(font
@@ -9329,7 +9401,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 127 179.3874 90)
 			(effects
 				(font
@@ -9338,7 +9410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 123.19 176.53 0)
 			(effects
 				(font
@@ -9357,6 +9429,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 123.19 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 123.19 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 123.19 176.53 0)
 			(effects
 				(font
@@ -9399,7 +9489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 72.39 167.6399 0)
 			(effects
 				(font
@@ -9408,7 +9498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.072 166.37 90)
 			(effects
 				(font
@@ -9494,7 +9584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 116.332 90)
 			(effects
 				(font
@@ -9668,7 +9758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 136.652 90)
 			(effects
 				(font
@@ -9949,7 +10039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 116.84 167.6399 0)
 			(effects
 				(font
@@ -9958,7 +10048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 112.522 166.37 90)
 			(effects
 				(font
@@ -10211,7 +10301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 90.17 167.6399 0)
 			(effects
 				(font
@@ -10220,7 +10310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.852 166.37 90)
 			(effects
 				(font
@@ -10369,7 +10459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 125.73 167.6399 0)
 			(effects
 				(font
@@ -10378,7 +10468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 121.412 166.37 90)
 			(effects
 				(font
@@ -10672,7 +10762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.358 107.95 90)
 			(effects
 				(font
@@ -11044,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 126.492 90)
 			(effects
 				(font
@@ -11207,7 +11297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 238.252 52.07 90)
 			(effects
 				(font
@@ -11572,7 +11662,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 100.33 179.3874 90)
 			(effects
 				(font
@@ -11581,7 +11671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 96.52 176.53 0)
 			(effects
 				(font
@@ -11600,6 +11690,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 96.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 96.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 96.52 176.53 0)
 			(effects
 				(font
@@ -12004,7 +12112,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 82.55 179.3874 90)
 			(effects
 				(font
@@ -12013,7 +12121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 78.74 176.53 0)
 			(effects
 				(font
@@ -12032,6 +12140,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 78.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 78.74 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 78.74 176.53 0)
 			(effects
 				(font
@@ -12083,7 +12209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.848 147.32 90)
 			(effects
 				(font
@@ -12239,7 +12365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 106.172 90)
 			(effects
 				(font
@@ -12467,7 +12593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 44.958 177.8 90)
 			(effects
 				(font
@@ -12546,7 +12672,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 63.5 167.6399 0)
 			(effects
 				(font
@@ -12555,7 +12681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.182 166.37 90)
 			(effects
 				(font
@@ -12634,7 +12760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 91.44 179.3874 90)
 			(effects
 				(font
@@ -12643,7 +12769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:3310_led"
 			(at 87.63 176.53 0)
 			(effects
 				(font
@@ -12662,6 +12788,24 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "743-IN-S124ARUR"
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "743-IN-S124ARUR"
 			(at 87.63 176.53 0)
 			(effects
 				(font
@@ -12713,7 +12857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 198.628 121.92 90)
 			(effects
 				(font

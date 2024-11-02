@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "31-10-2024")
+		(date "2-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -3959,7 +3959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.888 115.57 90)
 			(effects
 				(font
@@ -4189,7 +4189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.852 115.57 90)
 			(effects
 				(font
@@ -4524,7 +4524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 141.478 113.03 90)
 			(effects
 				(font
@@ -5041,7 +5041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts:ML414H"
 			(at 226.06 91.186 90)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "ML414H-IV01E"
 			(at 226.06 92.71 0)
 			(effects
 				(font
@@ -5077,7 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ML414H-IV01E"
 			(at 226.06 92.71 0)
 			(effects
 				(font
@@ -5281,7 +5281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.998 90.17 90)
 			(effects
 				(font
@@ -6055,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 81.28 107.442 90)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 220.98 82.042 90)
 			(effects
 				(font
