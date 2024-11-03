@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "2-11-2024")
+		(date "3-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -2310,7 +2310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b84aafe-328e-4570-8270-4f215e7e8a10")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -2360,7 +2360,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15141d6f-941e-43aa-b401-d8514f3faa91")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c073603-7215-499f-867c-292d93a2fbda")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -2558,7 +2558,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd7ae75-a1b1-4b45-9069-a5212638a91b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 		(instances
 			(project ""
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3475c199-5c50-4ec6-85fd-0ace65e804bf")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2856,7 +2856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66d57be7-22bc-4518-8ff9-76d57456cac8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 171.45 128.27 0)
 			(effects
 				(font
@@ -2906,7 +2906,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae5dbf0d-c64b-4129-9904-82420499c232")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 162.56 128.27 0)
 			(effects
 				(font
@@ -3353,7 +3353,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3369,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb16e37-21f2-4085-8027-f9683b8726a0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 107.95 116.84 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3435,7 +3435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba3aa975-215e-44ca-b64c-9930696ba8fb")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 132.08 128.27 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "M17_3310"
 				(path "/8d65c5ef-7a02-4454-aee5-ab9c49e4aeab/3b860798-5455-4385-a0e7-f7fc9f6a9c55"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

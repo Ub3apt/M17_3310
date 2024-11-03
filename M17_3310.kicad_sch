@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "2-11-2024")
+		(date "3-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -1850,16 +1850,6 @@
 			)
 			(uuid "8afc0547-bdd6-4e68-9261-861e5de37d26")
 		)
-		(pin "PWR_ON" input
-			(at 90.17 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "685e6067-7a93-4e64-844d-a6d7efcae335")
-		)
 		(pin "RTC_BATT" output
 			(at 87.63 113.03 90)
 			(effects
@@ -1879,6 +1869,16 @@
 				(justify right)
 			)
 			(uuid "43c0f5f2-ac6e-4919-bc64-8cfd0eb5cadf")
+		)
+		(pin "PWR_OFF" input
+			(at 90.17 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7976a45a-fa50-4941-ba29-96814ec810d8")
 		)
 		(instances
 			(project "M17_3310"
@@ -2088,16 +2088,6 @@
 			)
 			(uuid "850275d6-d77e-4c9a-9c7f-8979651e1615")
 		)
-		(pin "PWR_ON" output
-			(at 109.22 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1f54ac69-69cc-4b13-849d-68fd60e72ff5")
-		)
 		(pin "~{CHG}" input
 			(at 109.22 82.55 180)
 			(effects
@@ -2157,6 +2147,16 @@
 				(justify left)
 			)
 			(uuid "479b515f-7f54-4ff9-bd3d-0370464105de")
+		)
+		(pin "PWR_OFF" output
+			(at 109.22 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4c75295-fb85-412b-aa6c-bb6f083e742d")
 		)
 		(instances
 			(project "M17_3310"
