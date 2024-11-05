@@ -4055,6 +4055,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50018cf-ae5f-4bf5-ad8e-be28ee6ab810")
+	)
+	(wire
+		(pts
 			(xy 254 40.64) (xy 254 43.18)
 		)
 		(stroke
@@ -4272,6 +4282,17 @@
 			)
 		)
 		(uuid "615581b4-c73e-4451-9dc2-d2132c104608")
+	)
+	(text "BTN_OK"
+		(exclude_from_sim no)
+		(at 116.84 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "89cb1513-b389-4ee7-bcf7-d1dc7f223a55")
 	)
 	(label "MCU_VDD"
 		(at 118.11 38.1 180)
@@ -4774,6 +4795,18 @@
 			(justify right)
 		)
 		(uuid "5f4e0559-b907-49da-824a-19f9f8c5ca4c")
+	)
+	(hierarchical_label "BOOT0"
+		(shape input)
+		(at 120.65 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6abfcbc2-c82a-4334-b258-22d571c893fd")
 	)
 	(hierarchical_label "~{DISP_CE}"
 		(shape output)
