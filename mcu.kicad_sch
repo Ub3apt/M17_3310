@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "5-11-2024")
+		(date "22-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -2918,8 +2918,64 @@
 		(uuid "ecf89171-6493-4c56-bfa8-62b8f4e5f017")
 	)
 	(no_connect
+		(at 161.29 95.25)
+		(uuid "0bf4df43-e7c7-47ca-be7a-e8c658cef930")
+	)
+	(no_connect
+		(at 125.73 85.09)
+		(uuid "377d0414-36e4-49b6-b75b-83b50373edd3")
+	)
+	(no_connect
+		(at 125.73 97.79)
+		(uuid "379019db-f971-48ae-a362-934f3c535590")
+	)
+	(no_connect
 		(at 161.29 110.49)
 		(uuid "3aca2c6a-7669-4904-ba36-f369bd0c8b85")
+	)
+	(no_connect
+		(at 125.73 90.17)
+		(uuid "3b3c3fca-9231-4904-a183-fac9cef1ec11")
+	)
+	(no_connect
+		(at 161.29 125.73)
+		(uuid "42c59c3d-e3e6-4862-8e7b-a2f35e382083")
+	)
+	(no_connect
+		(at 125.73 110.49)
+		(uuid "62fe5f42-014d-4546-a8ac-422b83125d15")
+	)
+	(no_connect
+		(at 161.29 74.93)
+		(uuid "66a649ae-9237-4e9c-8f8a-cd708619ce19")
+	)
+	(no_connect
+		(at 161.29 102.87)
+		(uuid "70f76dee-9c5c-4edf-b3d9-54e050343b59")
+	)
+	(no_connect
+		(at 161.29 135.89)
+		(uuid "9bc7ec55-99c5-4d28-a9a0-9793e70d794f")
+	)
+	(no_connect
+		(at 125.73 95.25)
+		(uuid "a11d05f0-6e41-4853-bc81-d8eb31260ffd")
+	)
+	(no_connect
+		(at 161.29 72.39)
+		(uuid "a2368529-3287-4be2-81bc-721af66f399c")
+	)
+	(no_connect
+		(at 161.29 100.33)
+		(uuid "bef04976-2546-456c-bad7-c4a1f5a3eb21")
+	)
+	(no_connect
+		(at 161.29 128.27)
+		(uuid "c47459bc-8aee-42b8-bee9-c619b4f520f4")
+	)
+	(no_connect
+		(at 125.73 92.71)
+		(uuid "ccfbb286-f718-44a2-a97e-91cdf0645746")
 	)
 	(bus_entry
 		(at 223.52 123.19)
