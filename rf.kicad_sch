@@ -2439,7 +2439,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1e9fe2f6-7f6d-4e62-8a51-365b611fe0b7")
 		(property "Reference" "J2"
@@ -2748,7 +2748,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -2757,7 +2757,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -2788,7 +2788,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65977db7-369a-4849-98e4-fff82bc146c7")
 		(property "Reference" "J3"
@@ -2967,7 +2967,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -2976,7 +2976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -3057,6 +3057,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "942-IRLML6401TRPBF"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "942-IRLML6401TRPBF"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f6e09b7-ea83-47b5-a6fb-7c197c975074")
 		)
@@ -3082,7 +3100,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7fec3219-920f-4dd5-9c91-63f05c04dc3e")
 		(property "Reference" "U2"
@@ -3260,7 +3278,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 140.97 116.84 0)
 			(effects
 				(font
@@ -3269,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 140.97 116.84 0)
 			(effects
 				(font
@@ -3543,7 +3561,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -3552,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 146.05 100.33 0)
 			(effects
 				(font
@@ -3626,6 +3644,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "771-BSS138P215"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "771-BSS138P215"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -3881,6 +3917,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "771-BSS138P215"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "771-BSS138P215"
 			(at 134.62 111.76 0)
 			(effects
 				(font

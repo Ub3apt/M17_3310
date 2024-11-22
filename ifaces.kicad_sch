@@ -6402,7 +6402,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "05064c6b-c1d9-4ecf-82f0-39af7e831daa")
 		(property "Reference" "SW6"
@@ -6580,6 +6580,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "771-BSS138P215"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "771-BSS138P215"
 			(at 74.93 101.6 0)
 			(effects
 				(font
@@ -6767,7 +6785,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1c711a15-df86-4da6-8cd1-7189f068131c")
 		(property "Reference" "SW11"
@@ -6883,7 +6901,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6892,7 +6910,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -7011,7 +7029,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "204d283e-74ba-417b-8712-c8b3a31b3e21")
 		(property "Reference" "SW9"
@@ -7195,7 +7213,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -7204,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -7435,7 +7453,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -7444,7 +7462,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 264.16 97.79 0)
 			(effects
 				(font
@@ -7542,7 +7560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "337912ec-8d9e-413e-91e5-74fb6a1c3db6")
 		(property "Reference" "J7"
 			(at 140.97 73.66 90)
@@ -7693,7 +7711,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 96.52 166.37 0)
 			(effects
 				(font
@@ -7702,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 96.52 166.37 0)
 			(effects
 				(font
@@ -7781,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "660-RK73B1ETTP512J"
 			(at 247.65 52.07 0)
 			(effects
 				(font
@@ -7790,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "660-RK73B1ETTP512J"
 			(at 247.65 52.07 0)
 			(effects
 				(font
@@ -7989,7 +8007,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3b92bf02-1607-401d-8828-d9f9b13e45e1")
 		(property "Reference" "SW3"
@@ -8059,7 +8077,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47019cfd-4f66-4d79-b964-a1e25a9d805b")
 		(property "Reference" "SW4"
@@ -8129,7 +8147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4db749d8-1007-41de-9398-3c6f8d5a0696")
 		(property "Reference" "SW7"
@@ -8199,7 +8217,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "51046740-881d-4c9c-a4e6-91fc3b8cd26c")
 		(property "Reference" "SW16"
@@ -8269,7 +8287,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "572b16e9-86c6-4cc4-8324-ccfc8c4bb3fc")
 		(property "Reference" "SW10"
@@ -8427,7 +8445,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d9c49f9-3c3e-43b1-a816-958c64afa7f9")
 		(property "Reference" "SW5"
@@ -8545,7 +8563,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 105.41 166.37 0)
 			(effects
 				(font
@@ -8554,7 +8572,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 105.41 166.37 0)
 			(effects
 				(font
@@ -8633,7 +8651,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 34.29 107.95 0)
 			(effects
 				(font
@@ -8642,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 34.29 107.95 0)
 			(effects
 				(font
@@ -9164,6 +9182,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "942-IRLML6401TRPBF"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "942-IRLML6401TRPBF"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "126e0b90-cbea-45a3-ba5a-9b21d4b299eb")
 		)
@@ -9545,7 +9581,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 69.85 166.37 0)
 			(effects
 				(font
@@ -9554,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 69.85 166.37 0)
 			(effects
 				(font
@@ -9631,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -9640,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 264.16 118.11 0)
 			(effects
 				(font
@@ -9719,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "77-VJ0402Y103KCAAC"
 			(at 220.98 29.21 0)
 			(effects
 				(font
@@ -9728,7 +9764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "77-VJ0402Y103KCAAC"
 			(at 220.98 29.21 0)
 			(effects
 				(font
@@ -9805,7 +9841,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -9814,7 +9850,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -9977,7 +10013,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8e324247-fdcd-4e46-b996-66c496b3262b")
 		(property "Reference" "LS1"
@@ -10095,7 +10131,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 114.3 166.37 0)
 			(effects
 				(font
@@ -10104,7 +10140,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 114.3 166.37 0)
 			(effects
 				(font
@@ -10357,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 87.63 166.37 0)
 			(effects
 				(font
@@ -10366,7 +10402,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 87.63 166.37 0)
 			(effects
 				(font
@@ -10397,7 +10433,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "981e331e-ffa0-4e5a-8fd4-a133a873ebff")
 		(property "Reference" "SW17"
@@ -10515,7 +10551,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 123.19 166.37 0)
 			(effects
 				(font
@@ -10524,7 +10560,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 123.19 166.37 0)
 			(effects
 				(font
@@ -10621,7 +10657,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9cf5061f-2c1a-45d6-b830-d3970f3aadf7")
 		(property "Reference" "SW12"
@@ -10691,7 +10727,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a04f3a59-9d44-4591-90db-57b4d1a543dc")
 		(property "Reference" "SW8"
@@ -10809,7 +10845,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -10818,7 +10854,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -11181,7 +11217,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -11190,7 +11226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 264.16 128.27 0)
 			(effects
 				(font
@@ -11263,6 +11299,24 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 40.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "771-BSS138P215"
+			(at 40.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "771-BSS138P215"
 			(at 40.64 101.6 0)
 			(effects
 				(font
@@ -11344,7 +11398,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "660-RK73B1ETTP512J"
 			(at 240.03 52.07 0)
 			(effects
 				(font
@@ -11353,7 +11407,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "660-RK73B1ETTP512J"
 			(at 240.03 52.07 0)
 			(effects
 				(font
@@ -11563,6 +11617,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "810-CGA2B3X7R1H104KB"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "810-CGA2B3X7R1H104KB"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05d83622-513e-4228-83b9-07d01f3754c4")
 		)
@@ -11585,7 +11657,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c440adca-ca6d-4bbe-ba45-4a81b564457e")
 		(property "Reference" "J5"
 			(at 33.02 83.9357 0)
@@ -11758,7 +11830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cba36f35-e2ad-478b-8112-3e0fbb56db14")
 		(property "Reference" "J6"
 			(at 67.31 83.9357 0)
@@ -11959,6 +12031,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "771-BSS138P215"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "771-BSS138P215"
+			(at 49.53 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f9135b03-d717-4eb5-b511-815bd868771f")
 		)
@@ -12050,7 +12140,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dea40eb5-6b20-412f-97fc-3f5baefd7dc1")
 		(property "Reference" "SW13"
@@ -12256,7 +12346,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 52.07 147.32 0)
 			(effects
 				(font
@@ -12265,7 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 52.07 147.32 0)
 			(effects
 				(font
@@ -12296,7 +12386,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9946ba4-d8a3-4578-8d65-7bb00a6d4032")
 		(property "Reference" "SW14"
@@ -12412,7 +12502,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "652-CR0402JW-473GLF"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -12421,7 +12511,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "652-CR0402JW-473GLF"
 			(at 264.16 107.95 0)
 			(effects
 				(font
@@ -12452,7 +12542,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef6c8972-6d8d-4737-a8a5-8f200a717a30")
 		(property "Reference" "SW2"
@@ -12522,7 +12612,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "efdc57ab-a750-4b75-8005-cc363f76d093")
 		(property "Reference" "SW15"
@@ -12640,7 +12730,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-RC0402JR-13100KL"
 			(at 43.18 177.8 0)
 			(effects
 				(font
@@ -12649,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-RC0402JR-13100KL"
 			(at 43.18 177.8 0)
 			(effects
 				(font
@@ -12728,7 +12818,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "667-ERJ-2GEJ560X"
 			(at 60.96 166.37 0)
 			(effects
 				(font
@@ -12737,7 +12827,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "667-ERJ-2GEJ560X"
 			(at 60.96 166.37 0)
 			(effects
 				(font
@@ -12904,7 +12994,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "603-AF0402JR-071KL"
 			(at 196.85 121.92 0)
 			(effects
 				(font
@@ -12913,7 +13003,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "603-AF0402JR-071KL"
 			(at 196.85 121.92 0)
 			(effects
 				(font
