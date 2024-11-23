@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "22-11-2024")
+		(date "23-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -3924,9 +3924,9 @@
 		(at 54.61 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "643a455f-f62f-42b4-81f5-7e8149afcc1a")
 		(property "Reference" "J4"
 			(at 54.61 114.046 0)
@@ -4285,7 +4285,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f23ec5c-ac18-416a-8cf1-7ac9151294f7")
 		(property "Reference" "BT1"

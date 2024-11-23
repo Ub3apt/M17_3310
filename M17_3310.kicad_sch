@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "22-11-2024")
+		(date "23-11-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -636,7 +636,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d88228e-5713-4b3c-a081-961f2c4aa0d1")
 		(property "Reference" "H2"
@@ -703,7 +703,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e526fef-a670-4364-a4ab-34e8722606e9")
 		(property "Reference" "H1"
@@ -770,7 +770,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b60358-5078-4d88-b581-0a351c755765")
 		(property "Reference" "H7"
@@ -969,7 +969,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb1a2f7-169c-4b3c-a0f2-d8a41a6352ab")
 		(property "Reference" "H3"
@@ -1102,7 +1102,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83790120-8578-40e1-93fa-07326a51051e")
 		(property "Reference" "H5"
@@ -1169,7 +1169,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c8fc4ca-55c8-449f-aec9-bd2502a59fb9")
 		(property "Reference" "H6"
@@ -1302,7 +1302,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1e00b50-33d0-422a-b051-af9787f1126e")
 		(property "Reference" "H4"
