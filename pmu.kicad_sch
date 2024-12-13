@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Mainboard replacement for Nokia 3310")
-		(date "23-11-2024")
+		(date "13-12-2024")
 		(rev "Rev A")
 		(company "M17 Project")
 		(comment 1 "Wojciech Kaczmarski, SP5WWP")
@@ -3650,7 +3650,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS63030DSK"
+		(property "Value" "TPS63031DSK"
 			(at 170.18 78.74 0)
 			(effects
 				(font
@@ -3685,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "595-TPS63030DSKR"
+		(property "MPN" "595-TPS63031DSKR"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -3694,7 +3694,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "595-TPS63030DSKR"
+		(property "PN" "595-TPS63031DSKR"
 			(at 170.18 93.98 0)
 			(effects
 				(font
